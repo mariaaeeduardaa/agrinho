@@ -1,0 +1,96 @@
+/* Resetando alguns estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e fontes gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f7; /* Fundo suave com tom de rosa claro */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff66b2; /* Rosa forte para o cabeçalho */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Container para limitar o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Seção de Introdução */
+.introducao {
+    background-color: #ffe6f0; /* Rosa suave */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.introducao h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.introducao p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Seção de Imagens */
+.imagens {
+    padding: 40px 0;
+    background-color: #f2d1e6; /* Cor suave para imagens */
+    text-align: center;
+}
+
+.imagens h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff66b2; /* Rosa forte novamente no rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
